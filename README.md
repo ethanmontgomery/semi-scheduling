@@ -1,0 +1,5 @@
+<h1>README</h1>
+
+<h2>Scheduling Semiconductor Fabrication from Forecasted Demand</h2>
+<h3>Abstract:</h3>
+<b> The goal of this project is to simulate how a semiconductor foundry (like intel or TSMC) would schedule the production and transportation of chips for a varieity of customers with different SKUs. The project will rely on a forecasting model to project demand for a varieity of SKUs, then using the projected demand will schedule the production of the SKUs, taking into account the variability of demand, lead time, and process yeild. The forecasting data comes from https://doi.org/10.1287/msom.2020.0933 and contains 187 weeks of intel microprocessor demand information across different SKUs along with their price category. Importantly, these different SKUs span across 5 product generations (nodes), each in their own phase of the product lifecycle. To keep project within scope, 5 representative SKUs will be analyzed.</b>
